@@ -19,7 +19,7 @@ class App extends React.Component {
               <Route path="/admin" component={AdminScreen} />
               <Route path="/" component={HomeScreen} exact />
             </main>
-            <footer>All right is reserved.</footer>
+            <footer>All right is reserved copyright (©) MBY 2020.</footer>
           </div>
         </BrowserRouter>
       </Provider>
