@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import store from "./store";
+import { Provider } from "react-redux";
+import { BrowserRouter, Route, Link } from "react-router-dom";
+import HomeScreen from "./screens/HomeScreen";
+import AdminScreen from "./screens/AdminScreen";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <Provider store={store}>
+        <BrowserRouter>
+          <div className="grid-container">
+            <header>
+              <Link to="/">React Shopping Cart</Link>
+              <Link to="/admin">Admin</Link>
+            </header>
+            <main>
+              <Route path="/admin" component={AdminScreen} />
+              <Route path="/" component={HomeScreen} exact />
+            </main>
+            <footer>All right is reserved.</footer>
+          </div>
+        </BrowserRouter>
+      </Provider>
+    );
+  }
 }
 
 export default App;
