@@ -11,8 +11,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 
-app.use("/", express.static(__dirname + "/build"));
-app.get("/", (req, res) => res.sendFile(__dirname + "/build/index.html"));
+
 
 
   mongoose.connect(process.env.MONGO_URI,
@@ -99,6 +98,13 @@ app.delete("/api/orders/:id", async (req, res) => {
   const order = await Order.findByIdAndDelete(req.params.id);
   res.send(order);
 });
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static( 'shooping-cart/build' ));
+
+  app.get('*', (req, res) => {
+      res.sendFile(path.join(__dirname, 'shooping-cart', 'build', 'index.html')); // relative path
+  });
+}
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => console.log("serve at http://localhost:5000"));
