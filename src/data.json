@@ -24,14 +24,7 @@
       "CPU": ["I5", "I7", "I9"],
       "price": 999
     },
-    {
-      "_id": "PC4",
-      "image": "/images/PC4.jpg",
-      "title": "DELL G3 15-3590 (R6TPH)",
-      "description": "Avec le PC portable gamer Dell G3 15-3590 (R6TPH), Dell étoffe sa gamme G3 pour vous offrir un compromis idéal entre performances, confort et mobilité. Equipé d'une dalle IPS Full HD au format 15,6 pouces et d'une carte graphique NVIDIA de dernière génération avec la GeForce GTX 1650, il vous propose une configuration taillée pour le jeu. Son châssis compact est facilement transportable grâce à sa finesse et à sa légèreté. Côté performances, il intègre un processeur Intel Core i5 de génération Coffee Lake, un système de stockage mêlant HDD et SSD et 8 Go de RAM pour une expérience gaming fluide !",
-      "CPU": ["I3","I5", "I7", "I9"],
-      "price": 949
-    },
+   
     {
       "_id": "PC5",
       "image": "/images/PC5.jpg",

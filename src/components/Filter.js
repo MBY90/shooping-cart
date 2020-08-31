@@ -36,10 +36,10 @@ class Filter extends Component {
             }
           >
             <option value="">ALL</option>
-            <option value="XS">I3</option>
-            <option value="S">I5</option>
-            <option value="M">I7</option>
-            <option value="L">I9</option>
+            <option value="I3">I3</option>
+            <option value="I5">I5</option>
+            <option value="I7">I7</option>
+            <option value="I9">I9</option>
           </select>
         </div>
       </div>

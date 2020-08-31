@@ -10,15 +10,15 @@ export const fetchProducts = () => async (dispatch) => {
   });
 };
 
-export const filterProducts = (products, CPU) => (dispatch) => {
+export const filterProducts = (products, proc) => (dispatch) => {
   dispatch({
     type: FILTER_PRODUCTS_BY_CPU,
     payload: {
-      CPU :CPU,
+      proc :proc,
       items:
-        CPU === ""
+        proc === ""
           ? products
-          : products.filter((x) => x.CPU.indexOf(CPU) >= 0),
+          : products.filter((x) => x.CPU.indexOf(proc )>= 0),
     },
   });
 };

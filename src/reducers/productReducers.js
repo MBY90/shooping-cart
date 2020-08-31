@@ -9,7 +9,7 @@ export const productsReducer = (state = {}, action) => {
     case FILTER_PRODUCTS_BY_CPU:
       return {
         ...state,
-        CPU: action.payload.CPU,
+        proc: action.payload.proc,
         filteredItems: action.payload.items,
       };
     case ORDER_PRODUCTS_BY_PRICE:
