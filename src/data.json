@@ -1,52 +1,52 @@
 {
   "products": [
     {
-      "_id": "dress1",
-      "image": "/images/dress1.jpg",
-      "title": "Midi sundress with shirring detail",
-      "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-      "availableSizes": ["X", "L", "XL", "XXL"],
-      "price": 29.9
+      "_id": "PC1",
+      "image": "/images/PC1.jpg",
+      "title": "ASUS A17 TUF766IU-H7124T",
+      "description": "Avec le PC Portable Gamer Asus A17 TUF766IU-H7124T, Asus renouvelle sa gamme TUF (The Ultimate Force) ! Il profite de l'arrivée des nouvelles cartes graphiques NVIDIA pour s'équiper d'une GTX 1660Ti et d'un processeur AMD de la très attendue génération Renoir avec le Ryzen 7-4800H. Le reste des composants n'est pas en reste : dalle IPS 120 Hz Full HD bord à bord et stockage SSD grosse capacité sont de la partie pour vous offrir une expérience de jeu intense !",
+      "CPU": ["I3", "I5", "I7", "I9"],
+      "price": 1399
     },
     {
-      "_id": "dress2",
-      "image": "/images/dress2.jpg",
-      "title": "Midi sundress with ruched front",
-      "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-      "availableSizes": ["X", "M", "L"],
-      "price": 18.9
+      "_id": "PC2",
+      "image": "/images/PC2.jpg",
+      "title": "MSI GF63 Thin 10SCXR-414XFR",
+      "description": "Le PC Portable gamer MSI GF63 Thin 10SCXR-414XFR est le dernier né de la marque au dragon ! Non content d'arborer un élégant châssis à la finition aluminium et des dimensions contenues, il s'offre le luxe de vous proposer une dalle bord à bord à la résolution Full HD et à la technologie IPS. Un vrai régal pour les yeux ! Loin de s'en contenter, il vous permettra aussi de profiter des dernières nouveautés en terme de composants avec un processeur Intel i5-10300H de génération Comet Lake, ainsi que la toute dernière version de la carte graphique GTX 1650 (4 Go, Max-Q) de chez Nvidia !",
+      "CPU": ["I5", "I7"],
+      "price": 879
     },
     {
-      "_id": "dress3",
-      "image": "/images/dress3.jpg",
-      "title": "Midi dress in pink ditsy floral",
-      "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-      "availableSizes": ["X", "M", "L"],
-      "price": 14.9
+      "_id": "PC3",
+      "image": "/images/PC3.jpg",
+      "title": "ACER Nitro 5 AN515-43-R3A1",
+      "description": "Avec le PC Portable AN515-43-R3A1 Acer nous propose un gamer avec un écran bord à bord qui vous promet une surface de jeu des plus immersives. Le reste des composants n'est pas en reste pour vous offrir une expérience de jeu intense : processeur Ryzen 5, carte graphique GTX 1650 et SSD grosse capacité. Le tout, sans agresser votre portefeuille !",
+      "CPU": ["I5", "I7", "I9"],
+      "price": 999
     },
     {
-      "_id": "dress4",
-      "image": "/images/dress4.jpg",
-      "title": "cami maxi dress in polka dot",
-      "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-      "availableSizes": ["XL"],
-      "price": 25.9
+      "_id": "PC4",
+      "image": "/images/PC4.jpg",
+      "title": "DELL G3 15-3590 (R6TPH)",
+      "description": "Avec le PC portable gamer Dell G3 15-3590 (R6TPH), Dell étoffe sa gamme G3 pour vous offrir un compromis idéal entre performances, confort et mobilité. Equipé d'une dalle IPS Full HD au format 15,6 pouces et d'une carte graphique NVIDIA de dernière génération avec la GeForce GTX 1650, il vous propose une configuration taillée pour le jeu. Son châssis compact est facilement transportable grâce à sa finesse et à sa légèreté. Côté performances, il intègre un processeur Intel Core i5 de génération Coffee Lake, un système de stockage mêlant HDD et SSD et 8 Go de RAM pour une expérience gaming fluide !",
+      "CPU": ["I3","I5", "I7", "I9"],
+      "price": 949
     },
     {
-      "_id": "dress5",
-      "image": "/images/dress5.jpg",
-      "title": "Frill mini dress in yellow polka dot",
-      "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-      "availableSizes": ["X", "L", "XL"],
-      "price": 10.9
+      "_id": "PC5",
+      "image": "/images/PC5.jpg",
+      "title": "MSI Bravo 15 A4DDR-046FR",
+      "description": "Avec ce PC Portable Bravo 15 A4DDR-046FR, MSI accueille un nouveau pensionnaire dans sa gamme de PC Portables dédiés aux gamers. Il fait la part belle à des composants de dernière génération de chez AMD comme son processeur Ryzen 7 de la très attendue génération Renoir, ou la carte graphique Radeon RX5500M. Vous pourrez aussi compter sur sa dalle bords fins IPS FHD 120Hz ou son stockage PCIe de grosse capacité pour une expérience de jeu optimale",
+      "CPU": ["I7", "I9"],
+      "price": 1329
     },
     {
-      "_id": "dress6",
-      "image": "/images/dress6.jpg",
-      "title": "Midi tea dress in blue and red spot",
-      "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-      "availableSizes": ["XL", "XXL"],
-      "price": 49.9
+      "_id": "PC6",
+      "image": "/images/PC6.jpg",
+      "title": "ASUS A15-TUF566IU-HN326T",
+      "description": "Avec le PC Portable Gamer Asus A15-TUF566IU-HN326T, Asus renouvelle sa gamme TUF (The Ultimate Force) ! Il profite de l'arrivée des nouveaux processeurs AMD de la très attendue génération Renoir pour s'équiper d'un Ryzen 5-4600H. Le reste des composants n'est pas en reste : carte graphique NVIDIA GTX 1650Ti, dalle IPS 144 Hz Full HD bord à bord et stockage SSD grosse capacité sont de la partie pour vous offrir une expérience de jeu intense !",
+      "CPU": ["I5", "I7","I9"],
+      "price": 1299
     }
   ]
 }

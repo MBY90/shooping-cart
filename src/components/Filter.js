@@ -30,18 +30,16 @@ class Filter extends Component {
         <div className="filter-size">
           Filter{" "}
           <select
-            value={this.props.size}
+            value={this.props.CPU}
             onChange={(e) =>
               this.props.filterProducts(this.props.products, e.target.value)
             }
           >
             <option value="">ALL</option>
-            <option value="XS">XS</option>
-            <option value="S">S</option>
-            <option value="M">M</option>
-            <option value="L">L</option>
-            <option value="XL">XL</option>
-            <option value="XXL">XXL</option>
+            <option value="XS">I3</option>
+            <option value="S">I5</option>
+            <option value="M">I7</option>
+            <option value="L">I9</option>
           </select>
         </div>
       </div>
@@ -50,7 +48,7 @@ class Filter extends Component {
 }
 export default connect(
   (state) => ({
-    size: state.products.size,
+    size: state.products.CPU,
     sort: state.products.sort,
     products: state.products.items,
     filteredProducts: state.products.filteredItems,

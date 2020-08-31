@@ -1,5 +1,5 @@
 import { FETCH_PRODUCTS } from "../types";
-import { FILTER_PRODUCTS_BY_SIZE, ORDER_PRODUCTS_BY_PRICE } from "../types";
+import { FILTER_PRODUCTS_BY_CPU, ORDER_PRODUCTS_BY_PRICE } from "../types";
 export const fetchProducts = () => async (dispatch) => {
   const res = await fetch("/api/products");
   const data = await res.json();
@@ -10,15 +10,15 @@ export const fetchProducts = () => async (dispatch) => {
   });
 };
 
-export const filterProducts = (products, size) => (dispatch) => {
+export const filterProducts = (products, CPU) => (dispatch) => {
   dispatch({
-    type: FILTER_PRODUCTS_BY_SIZE,
+    type: FILTER_PRODUCTS_BY_CPU,
     payload: {
-      size: size,
+      CPU :CPU,
       items:
-        size === ""
+        CPU === ""
           ? products
-          : products.filter((x) => x.availableSizes.indexOf(size) >= 0),
+          : products.filter((x) => x.CPU.indexOf(CPU) >= 0),
     },
   });
 };

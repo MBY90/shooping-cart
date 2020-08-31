@@ -1,15 +1,15 @@
 import {
   FETCH_PRODUCTS,
-  FILTER_PRODUCTS_BY_SIZE,
+  FILTER_PRODUCTS_BY_CPU,
   ORDER_PRODUCTS_BY_PRICE,
 } from "../types";
 
 export const productsReducer = (state = {}, action) => {
   switch (action.type) {
-    case FILTER_PRODUCTS_BY_SIZE:
+    case FILTER_PRODUCTS_BY_CPU:
       return {
         ...state,
-        size: action.payload.size,
+        CPU: action.payload.CPU,
         filteredItems: action.payload.items,
       };
     case ORDER_PRODUCTS_BY_PRICE:
